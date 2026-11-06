@@ -1,0 +1,21 @@
+# Secrets : cookie de session Overleaf (accès complet au compte)
+.env
+!.env.example
+
+# Contenu local des projets Overleaf (fichiers, PDF compilés)
+backend/workspace/
+
+# Fichiers personnels hors code
+/output.pdf
+/projet.zip
+
+# Dépendances et builds
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# Système / éditeur
+.DS_Store
+.vscode/

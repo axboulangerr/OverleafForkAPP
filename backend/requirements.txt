@@ -1,0 +1,9 @@
+fastapi==0.162.0
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+requests==2.32.3
+truststore==0.10.5
+# Installé depuis les sources (pip install --no-binary claude-agent-sdk ...) :
+# le SDK utilise alors la CLI `claude` déjà installée et connectée (abonnement),
+# au lieu de télécharger un binaire Claude Code de 131 Mo.
+claude-agent-sdk==0.2.178
